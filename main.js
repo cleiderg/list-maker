@@ -10,7 +10,6 @@ function createListItem() {
     var content = document.createTextNode(userInput.value);
 
     newPara.appendChild(content);
-    '-'.append(newPara);
 
     var currentDiv = document.getElementById("container");
 
